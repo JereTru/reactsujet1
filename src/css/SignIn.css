@@ -1,0 +1,72 @@
+/* Styles pour la barre violet */
+.signin-container {
+    max-width: 600px; /* Largeur maximale du conteneur */
+    margin: auto; /* Centrer le conteneur horizontalement */
+    text-align: center; /* Centre le contenu horizontalement */
+}
+
+/* Styles pour le formulaire */
+.login-form {
+    max-width: 400px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    background-color: #fff; /* Couleur de fond du formulaire */
+    padding: 20px; /* Espacement intérieur du formulaire */
+    border-radius: 8px; /* Bordure arrondie */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Styles pour le titre "Sign IN" */
+.login-title {
+    text-align: center; /* Centre le texte */
+    font-weight: bold; /* Texte en gras */
+    text-transform: uppercase; /* Texte en majuscules */
+    color: #0f0e0e; /* Couleur du texte */
+    margin-bottom: 20px; /* Espacement en dessous du titre */
+}
+
+/* Styles pour le bouton "Submit" */
+.submit-button {
+    background-color: #6a0dad; /* Couleur violette */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprime la bordure */
+    padding: 10px 20px; /* Espacement intérieur */
+    border-radius: 4px; /* Bordure arrondie */
+    cursor: pointer; /* Curseur de la souris au survol */
+    margin-right: 10px; /* Marge à droite */
+}
+
+.submit-button:hover {
+    background-color: #540b8e; /* Couleur violette foncée au survol */
+}
+
+/* Ajout de l'encadrement autour du formulaire */
+.login-form {
+    border: 2px solid #6a0dad; /* Bordure violette */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 8px; /* Bordure arrondie */
+}
+
+/* Ajustement de l'espacement entre les champs "Email" et "Password" */
+.form-group:nth-child(2) {
+    margin-top: 20px; /* Espacement entre les champs "Email" et "Password" */
+}
+
+/* Ajustement de l'espacement des boutons */
+.submit-button,
+.delete-button {
+    margin-top: 20px; /* Espacement au-dessus des boutons */
+}
+
+/* Styles pour le bouton "Delete" */
+.delete-button {
+    background-color: #ff6347; /* Couleur rouge */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprime la bordure */
+    padding: 10px 20px; /* Espacement intérieur */
+    border-radius: 4px; /* Bordure arrondie */
+    cursor: pointer; /* Curseur de la souris au survol */
+}
+
+.delete-button:hover {
+    background-color: #b80000; /* Couleur rouge foncée au survol */
+}

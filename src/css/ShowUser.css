@@ -1,0 +1,60 @@
+.show-user-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  border: 2px solid #ccc; /* Ajout de la bordure */
+  border-radius: 10px; /* Bordure arrondie */
+}
+
+.form-group {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.password-label {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.password-field {
+  background-color: #f9f9f9;
+}
+
+.update-button {
+  background-color: #6a0dad;
+  color: #fff;
+  margin: 20px 10px; /* Espacement autour du bouton */
+  padding: 12px 24px; /* Taille du bouton */
+  border: 2px solid #6a0dad; /* Bordure bleue */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.delete-button {
+  background-color: red;
+  color: #fff;
+  margin: 20px 10px 20px 0; /* Espacement avec le bouton "Update" à gauche */
+  padding: 12px 24px; /* Taille du bouton */
+  border: 2px solid red; /* Bordure rouge */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: transparent;
+  color: #6a0dad;
+}
+
+.delete-button:hover {
+  background-color: transparent;
+  color: red;
+}
+
+h1 {
+  color: #6a0dad; /* Couleur rouge pour le titre */
+  text-transform: uppercase; /* Conversion en majuscules */
+  text-align: center; /* Alignement au centre */
+  margin: 20px 0; /* Marge autour du titre */
+}

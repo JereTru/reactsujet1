@@ -1,0 +1,164 @@
+.priority {
+    margin-top: 135px;
+}
+
+.priorityBoard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 24px;
+    margin-left: 10%;
+    margin-top: 50px;
+
+    min-width: 400px;
+    width: 60%; 
+    height: 100px;
+
+    background: #FFFFFFFF;
+    border-radius: 6px;
+    border-width: 1px; 
+    border-color: #F3F4F6FF;
+    border-style: solid; 
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+}
+
+.priorityUpBoard, .priorityDownBoard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priorityBoard h2 {
+    margin: 0;
+}
+
+.buttonUp, .buttonDel, .buttonAdd {
+    height: 36px;
+    width: 100px;
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #FFFFFFFF;
+    background: #379AE6FF;
+    opacity: 1; 
+    border: none; 
+    border-radius: 4px; 
+}
+
+.buttonUp:hover, .buttonDel:hover, .buttonAdd:hover {
+    cursor: pointer;
+} 
+
+.buttonDel {
+    background: #DE3B40FF;
+}
+
+.buttonAdd {
+    background: #FFBD19FF; 
+}
+
+#buttonAddPrio {
+    position: fixed;
+    top: 75%;
+    left: 84%;
+
+    width: 80px; 
+    height: 80px; 
+    font-size: 40px; 
+    color: #FFFFFFFF;
+    background: #6D31EDFF;
+    border-radius: 40px; 
+    border: 0px;
+}
+
+.buttonValid {
+    width: 74px;
+    height: 36px; 
+    padding: 0 12px;
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #FFFFFFFF;
+    background: #6D31EDFF;
+    opacity: 1; 
+    border: none; 
+    border-radius: 4px
+}
+
+.buttonCancel {
+    width: 74px;
+    height: 36px; 
+    padding: 0 12px; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #9095A1FF;
+    background: #00000000;
+    opacity: 1; 
+    border: none; 
+    border-radius: 4px;
+}
+
+.buttonValid:hover {
+    cursor: pointer;
+    color: #FFFFFFFF;
+    background: #5113D7FF;
+}
+
+.buttonCancel:hover {
+    cursor: pointer;
+    color: #9095A1FF;
+    background: #EAECF0FF;
+}
+
+.addToTask {
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 15px;
+    background: #FFFFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 4px 9px #171a1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addToTask h2 {
+    margin-bottom: 30px;
+}
+
+.dialogTasks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dialogTasks button {
+    height: 36px;
+    padding: 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #FFFFFFFF;
+    background: #6D31EDFF;
+    opacity: 1; 
+    border: none; 
+    border-radius: 4px;
+}
+
+.dialogTasks button:hover {
+    cursor: pointer;
+    color: #FFFFFFFF;
+    background: #5113D7FF;
+}

@@ -1,0 +1,81 @@
+
+.MuiBox-root {
+  border-radius: 20px;
+  
+}
+.MuiBox-root h2 {
+  text-align: center;
+}
+
+.buttonAddTaskBoard, .btnAddUserTask, .buttonAffectation, .btnAffectUser, .btnRetirerPrio {
+  height: 36px; 
+  padding: 0 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Manrope;
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  color: #FFFFFFFF; /* white */
+  background: #FF56A5FF; /* tertiary1-500 */
+  opacity: 1; 
+  border: none; 
+  border-radius: 4px; /* border-m */
+}
+/* Hover */
+.buttonAddTaskBoard:hover {
+  color: #FFFFFFFF; /* white */
+  background: #FF107FFF; /* tertiary1-600 */
+  cursor: pointer;
+}
+.btnAddUserTask {
+  color: white; 
+  background: rgb(80, 83, 85); 
+}
+.btnAddUserTask:hover {
+  color: black;
+  background: rgba(80, 83, 85, 0.6);
+  cursor: pointer;
+}
+
+.afficheListeBTN {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.buttonAffectation {
+  background: rgb(15, 31, 168);
+  width: 100%;
+}
+.buttonAffectation:hover {
+  background: rgba(15, 30, 168, 0.658);
+  cursor: pointer;
+}
+
+.btnAffectUser {
+  color: rgb(255, 255, 255);
+  background: rgb(80, 83, 85);
+  width: 100%;
+}
+.btnAffectUser:hover {
+  color: black;
+  background: rgba(80, 83, 85, 0.6);
+  cursor: pointer;
+}
+
+.infoMessage {
+  text-align: center;
+  color:darkred;
+}
+
+.btnRetirerPrio {
+  color: rgb(255, 255, 255);
+  background: rgb(167, 36, 27);
+}
+.btnRetirerPrio:hover {
+  color: black;
+  background: rgba(167, 36, 27, 0.6);
+  cursor: pointer;
+}

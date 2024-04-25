@@ -1,0 +1,93 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Gérard",
+            "password": "Gérarddu38",
+            "email": "Gérard@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Germaine",
+            "password": "Germainedu94",
+            "email": "Germaine@gmail.com"
+        },
+        {
+            "id": 3,
+            "name": "Xavier",
+            "password": "Xavierdu91",
+            "email": "Xavier@gmail.com"
+        },
+        {
+            "id": 4,
+            "name": "Mathilde",
+            "password": "Mathildedu75",
+            "email": "Mathilde@gmail.com"
+        }
+    ],
+
+    "tasks": [
+        {
+            "id": 1,
+            "users_id": [1,2],
+            "priority_id": 1,
+            "task_name": "Task1",
+            "task_description": "Description1"
+        },
+        {
+            "id": 2,
+            "users_id": [2,4],
+            "priority_id": 2,
+            "task_name": "Task2",
+            "task_description": "Description2"
+        },
+        {
+            "id": 3,
+            "users_id": [3,4,1],
+            "priority_id": 2,
+            "task_name": "Task3",
+            "task_description": "Description3"
+        },
+        {
+            "id": 4,
+            "users_id": [4,2,1],
+            "priority_id": 4,
+            "task_name": "Task4",
+            "task_description": "Description4"
+        }
+    ],
+
+    "priorities": [
+        {
+            "id": 1,
+            "label": "Essential"
+        },
+        {
+            "id": 2,
+            "label": "ASAP"
+        },
+        {
+            "id": 3,
+            "label": "Secondary"
+        },
+        {
+            "id": 4,
+            "label": "Optionnal"
+        }
+    ],
+
+    "boards": [
+        {
+            "id": 1,
+            "task_id": [1,2],
+            "board_name": "Board1",
+            "board_description": "Board_description1"
+        },
+        {
+            "id": 2,
+            "task_id": [3,4],
+            "board_name": "Board2",
+            "board_description": "Board_description2"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+/* Styles pour le formulaire de SignUp */
+
+/* Conteneur principal */
+.signup-container {
+    max-width: 600px; /* Largeur maximale du conteneur */
+    margin: auto; /* Centrer le conteneur horizontalement */
+    text-align: center; /* Centre le contenu horizontalement */
+}
+
+/* Titre "Sign Up" */
+.signup-title {
+    text-align: center; /* Centre le texte */
+    font-weight: bold; /* Texte en gras */
+    text-transform: uppercase; /* Texte en majuscules */
+    color: #0f0e0e; /* Couleur du texte */
+    margin-bottom: 20px; /* Espacement en dessous du titre */
+}
+
+/* Styles pour les champs de saisie */
+.input-field {
+    width: 100%; /* Largeur à 100% */
+    padding: 10px; /* Espacement intérieur */
+    margin-top: 10px; /* Espacement en haut */
+    margin-bottom: 20px; /* Espacement en bas */
+    border: 2px solid #6a0dad; /* Bordure violette */
+    border-radius: 4px; /* Bordure arrondie */
+    box-sizing: border-box; /* Inclut les bordures et le rembourrage dans la largeur et la hauteur totales */
+}
+
+/* Styles pour le bouton "Submit" */
+.submit-button {
+    background-color: #6a0dad; /* Couleur violette */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Supprime la bordure */
+    padding: 10px 20px; /* Espacement intérieur */
+    border-radius: 4px; /* Bordure arrondie */
+    cursor: pointer; /* Curseur de la souris au survol */
+}
+
+.submit-button:hover {
+    background-color: #540b8e; /* Couleur violette foncée au survol */
+}
+

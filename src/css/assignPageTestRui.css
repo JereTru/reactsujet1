@@ -1,0 +1,103 @@
+.bodyTestRui {
+    /* border: 1px solid black; */
+    width: 96vw;
+    min-height: 80vh;
+    margin: auto;
+
+    display: flex;
+
+    gap: 10px;
+    padding: 10px;
+}
+.bodyTestRui aside {
+    border: 2px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.bodyTestRui article {
+    /* border: 1px solid blue; */
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+    
+}
+.bodyTestRui section {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.bodyTestRui h2 {
+    border-bottom: 2px solid black;
+
+    width: 100%;
+
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.bodyTestRui h3 {
+    border-bottom: 2px solid black;
+    width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin: 5px auto;
+}
+.bodyTestRui .afficherTache {
+    border: 2px solid black;
+    width: 250px;
+    border-radius: 5px;
+}
+.bodyTestRui .afficherTableaux {
+    border: 2px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.bodyTestRui .afficherTache button {
+    margin: 5px auto;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bodyTestRui .afficherUsers {
+    height: 20px;
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.bodyTestRui .afficherUsers button{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+
+    border: 1px solid white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyTestRui .afficherUsers button:hover{
+    cursor: pointer;
+    border: 1px solid darkred;
+    background-color: aquamarine;
+
+}
+
